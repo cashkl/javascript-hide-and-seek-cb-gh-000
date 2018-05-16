@@ -11,6 +11,8 @@ return a;
 function increaseRankBy(n) {
   const lis=document.querySelectorAll('.ranked-list')
   for (var i = 0; i < lis.length; i++) {
-    lis[i].innerHTML+=n;
+    sayi=parseInt(lis[i].innerHTML,10);
+    sayi+=n;
+    lis[i].innerHTML=sayi;
   }
 }
