@@ -5,6 +5,6 @@ return ans;
 }
 
 function nestedTarget() {
-  const a= document.getElementById('nested').querySelector('div div div div.target')
+  const a= document.querySelector('#nested .target')
 return a;
 }
