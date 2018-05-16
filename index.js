@@ -23,5 +23,5 @@ function deepestChild() {
   for (var i = 0; i < lis.length; i++) {
     ans= lis[i].innerHTML;
   }
-  return ans
+  return lis[lis.length-1]
 }
