@@ -1,3 +1,3 @@
 function getFirstSelector(selectors) {
-return selectors[0];  
+return selectors[0];
 }
