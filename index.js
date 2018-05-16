@@ -16,3 +16,12 @@ function increaseRankBy(n) {
     lis[i].innerHTML=sayi;
   }
 }
+
+function deepestChild() {
+  const lis = document.querySelectorAll('div#grand-node');
+  var ans;
+  for (var i = 0; i < lis.length; i++) {
+    ans= lis[i].innerHTML;
+  }
+  return ans
+}
