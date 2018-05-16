@@ -5,5 +5,5 @@ return ans;
 }
 
 function nestedTarget() {
-document.querySelector('div.div.div.div.div.target')
+return document.querySelector('div.div.div.div.div.target')
 }
