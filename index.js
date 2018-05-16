@@ -1,3 +1,5 @@
 function getFirstSelector(selectors) {
-return selectors[0];
+const ans=document.querySelector(selectors)
+  
+return ans;
 }
